@@ -1,0 +1,15 @@
+{
+  "name": "PortalOne",
+  "short_name": "PWA",
+  "theme_color": "#008080",
+  "background_color": "#008080",
+  "display": "standalone",
+  "start_url": "https://po-ws.blogspot.com/",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY8SjnYboVUZqKA5Wz40bskCYIgY1-X2RU3zMT52NKRNV5pvmhO0oyiWcKFODxHVxGU75-GqjCiydD7DnjKzHmUSIBg_JO1RCP4VBxv6B7MtYRGx7kq3Z_kzDkNolMDj1SCWI7ZtxymrN4s8H24StlqBTsu-ixHpOsqQiAKxM17EyBu43Jmki1KQVkdamm/s192/po_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
