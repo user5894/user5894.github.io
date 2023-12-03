@@ -38,6 +38,25 @@ body {
 * {
     touch-action: pan-x pan-y;
 }
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--light-bg);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #aaa transparent;
+}
 </style>
 <br>
 <script async src="https://cse.google.com/cse.js?cx=d328e8d6257fc4b0e">
