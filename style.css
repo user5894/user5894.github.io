@@ -52,144 +52,144 @@ body {
 
 /*==== 3 ここから ====*/
 .gcsc-more-maybe-branding-root {
-  display: none;
+  display: none!important;
 }
 @media (prefers-color-scheme: dark) {
   .gsc-completion-container {
-    background-color: #23282f;
-    color: #e6e6e6;
+    background-color: #23282f!important;
+    color: #e6e6e6!important;
   }
 }
 .gsc-control-cse {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: transparent!important;
+    background-color: transparent!important;
 }
 .gcsc-more-maybe-branding-box {
-  display: none;
+  display: none!important;
 }
 .gsc-above-wrapper-area {
-  display: none;
+  display: none!important;
 }
 .gsc-input-box {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gsc-search-button {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gsc-results-wrapper-overlay {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-image {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gsc-results .gsc-cursor-box {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-imagePreview {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-image-popup-box {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-previewVisit {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gsc-tabsArea {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 .gs-imagePreviewArea {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 @media (prefers-color-scheme: dark) {
   .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
-    background-color: #23282f;
+    background-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
-    background-color: #23282f;
+    background-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-    background-color: #23282f;
-    border-color: #23282f;
+    background-color: #23282f!important;
+    border-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-webResult:hover.gsc-result:hover, .gsc-results:hover .gsc-imageResult:hover {
-    background-color: #23282f;
-    border-color: #23282f;
+    background-color: #23282f!important;
+    border-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet, .gs-fileFormatType {
-    color: #e6e6e6;
+    color: #e6e6e6!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    background-color: #23282f;
+    background-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-results .gsc-cursor-box .gsc-cursor-page {
-    background-color: #23282f;
+    background-color: #23282f!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-results .gsc-cursor {
-    color: #e6e6e6;
+    color: #e6e6e6!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gsc-cursor-numbered-page {
-    color: #e6e6e6;
+    color: #e6e6e6!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-    color: #8ab4f8;
+    color: #8ab4f8!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gs-result .gs-title *, .gsc-cursor-page, .gs-spelling a {
-    color: #8ab4f8;
+    color: #8ab4f8!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
-    color: #8ab4f8;
+    color: #8ab4f8!important;
   }
 }
 @media (prefers-color-scheme: dark) {
   .gs-spelling {
-    color: #e6e6e6;
+    color: #e6e6e6!important;
   }
 }
 .gcsc-branding-clickable {
-    pointer-events: none;
+    pointer-events: none!important;
 }
 .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
-    color: inherit;
-    border-color: inherit;
+    color: inherit!important;
+    border-color: inherit!important;
 }
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    color: inherit;
+    color: inherit!important;
 }
 .gsc-input-box {
-    background: inherit;
+    background: inherit!important;
 }
 #gsc-i-id1 {
     background: inherit!important;
-    color: inherit;
+    color: inherit!important;
 }
 .gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
-    background-color: inherit;
+    background-color: inherit!important;
 }
 @media (prefers-color-scheme: light) {
   .gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
-    background-color: #008080;
+    background-color: #008080!important;
   }
 }
 /*==== 3 ここまで ====*/
@@ -203,7 +203,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
 .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
-    color: #c0c0c0;
+    color: #c0c0c0!important;
   }
 }
 /*==== 4 ここから ====*/
