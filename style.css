@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
+/*==== リセットCSS ここから ====*/
+html{min-height:100vh}.item-control{display:none}*{margin:0;padding:0;font-size:100%;vertical-align:baseline}*,::after,::before{box-sizing:border-box}html{font-size:62.5%}body{word-wrap:break-word;overflow-wrap:break-word}img{height:auto;max-width:100%;vertical-align:bottom}iframe{max-width:100%;border:none}.post-body ol,.post-body ul{padding-left:1em}.widget-content ul,.widget-content ol{padding-left:1.5em}@media(max-width:1024px){body{font-size:1.6rem}}
+/*==== リセットCSS ここまで  ====*/
+
+/*==== 1 ここから ====*/
 body {
 -webkit-touch-callout:none; /* リンク長押しのポップアップを無効化 */
 -webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
 }
+/*==== 1 ここまで ====*/
+
+/*==== 2 ここから ====*/
 .text {
     color: #008080;
     text-decoration: none;
@@ -40,6 +48,9 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #aaa transparent;
 }
+/*==== 2 ここまで ====*/
+
+/*==== 3 ここから ====*/
 .gcsc-more-maybe-branding-root {
   display: none;
 }
@@ -181,6 +192,9 @@ body {
     background-color: #008080;
   }
 }
+/*==== 3 ここまで ====*/
+
+/*==== 4 ここから ====*/
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #23282f;
@@ -192,3 +206,4 @@ body {
     color: #c0c0c0;
   }
 }
+/*==== 4 ここから ====*/
