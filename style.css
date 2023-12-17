@@ -214,12 +214,12 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .gs-snippet {
-    color: #e6e6e6;
+    color: #e6e6e6!important;
   }
 }
 @media (prefers-color-scheme: light) {
   .gs-snippet {
-    color: #333333;
+    color: #333333!important;
   }
 }
 /*==== 3 ここまで ====*/
