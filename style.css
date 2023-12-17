@@ -19,6 +19,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0rem;
 }
+.copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 * {
     font-family: 'M PLUS 1p', sans-serif;
 }
