@@ -35,8 +35,17 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--light-bg);
   border-radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #23282f;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
 }
 ::-webkit-scrollbar-thumb {
   background: #aaa;
@@ -193,6 +202,24 @@ body {
 @media (prefers-color-scheme: light) {
   .gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
     background-color: #008080!important;
+  }
+}
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+    background-color: transparent!important;
+    border: transparent!important;
+    display: inherit!important;
+    padding: 5px!important;
+    font-size: 15px!important;
+    text-align: center!important;
+}
+@media (prefers-color-scheme: dark) {
+  .gs-snippet {
+    color: #e6e6e6;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .gs-snippet {
+    color: #333333;
   }
 }
 /*==== 3 ここまで ====*/
