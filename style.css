@@ -37,16 +37,6 @@ body {
 ::-webkit-scrollbar-track {
   border-radius: 10px;
 }
-@media (prefers-color-scheme: dark) {
-  ::-webkit-scrollbar-track {
-    background: #23282f;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  ::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
-}
 ::-webkit-scrollbar-thumb {
   background: #aaa;
   border-radius: 10px;
